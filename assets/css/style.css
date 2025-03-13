@@ -238,14 +238,14 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#inicio {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
 
-#hero:before {
+#inicio:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
@@ -256,13 +256,13 @@ h6 {
   z-index: 1;
 }
 
-#hero .hero-container {
+#inicio .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
 }
 
-#hero h1 {
+#inicio h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -270,14 +270,14 @@ h6 {
   color: #fff;
 }
 
-#hero p {
+#inicio p {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+#inicio p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
@@ -285,18 +285,18 @@ h6 {
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #inicio {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #inicio h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #hero h2 {
+  #inicio h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -344,37 +344,37 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# Sobre
 --------------------------------------------------------------*/
-.about .content h3 {
+.sobre .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
 }
 
-.about .content ul {
+.sobre .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.sobre .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-.about .content ul strong {
+.sobre .content ul strong {
   margin-right: 10px;
 }
 
-.about .content ul i {
+.sobre .content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
 }
 
-.about .content p:last-child {
+.sobre .content p:last-child {
   margin-bottom: 0;
 }
 
